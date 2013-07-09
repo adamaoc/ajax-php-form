@@ -36,7 +36,11 @@ require_once('content.php');
 			</h3>
 		</section>
 
+		
+		<?php @include "../ajax-php-form/email-view.php"; ?>
+
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="../ajax-php-form/main.js"></script>
+		<script src="../ajax-php-form/email.js"></script>
 	</body>
 </html>
